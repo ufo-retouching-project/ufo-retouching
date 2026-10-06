@@ -1,0 +1,28 @@
+# Local Photoshop sources, reusable assets, and generated review files
+*.psd
+*.psb
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
+*.docx
+/Control Group Images/
+/.retouch/
+/outputs/*
+!/outputs/.gitkeep
+/input/*
+!/input/README.md
+
+# Local configuration, credentials, and runtime caches
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+venv/
